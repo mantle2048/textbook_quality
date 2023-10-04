@@ -39,9 +39,9 @@ autoflake = "^2.2.1"
 
 
 [[tool.poetry.source]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/cpu"
-priority = "explicit"
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+priority = "default"
 
 [build-system]
 requires = ["poetry-core"]

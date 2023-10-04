@@ -3,7 +3,8 @@ from app.settings import settings
 
 DEV_ENV = {
     "DATABASE_URL": settings.DATABASE_URL,
-    "PYTHONPATH": "."
+    "PYTHONPATH": ".",
+    "PGPASSWORD": settings.PGPASSWORD
 }
 
 @task

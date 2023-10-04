@@ -16,6 +16,10 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "postgresql://localhost/textbook"
     DEBUG: bool = False
+    PGDATABASE: str = ""
+    PGUSER: str = ""
+    PGPASSWORD: str = ""
+    PGHOST: str = ""
 
     # Content
     SECTIONS_PER_LESSON: int = 20  # Lower this to make books shorter
